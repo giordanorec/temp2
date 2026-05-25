@@ -1,0 +1,17 @@
+--- a/scripts/spawn.sh
++++ b/scripts/spawn.sh
+@@ -30,7 +30,12 @@ EOF
+ fi
+
+ # UUID fixo, controlado por nós
+-SESSION_ID=$(uuidgen)
++if command -v uuidgen &>/dev/null; then
++    SESSION_ID=$(uuidgen)
++elif [[ -f /proc/sys/kernel/random/uuid ]]; then
++    SESSION_ID=$(cat /proc/sys/kernel/random/uuid)
++else
++    SESSION_ID=$(python3 -c "import uuid; print(uuid.uuid4())")
++fi
+
+ # sessions.json bootstrap
+ [[ -f sessions.json ]] || echo "{}" > sessions.json
