@@ -15,14 +15,21 @@ com tipagem estatica que ajuda na manutencao.
 - **React 19**: UI components
 - **NextAuth.js v5**: autenticacao (Google provider)
 - **Tailwind CSS 4**: estilizacao rapida e consistente
-- **D3.js ou vis-network**: visualizacao do mapa de atores/conexoes
+- **shadcn/ui**: componentes acessiveis e bonitos (Radix UI + Tailwind)
+- **Motion** (ex-Framer Motion): animacoes suaves estilo Apple
+- **Geist**: tipografia (sans + mono)
+- **tailwindcss-animate**: animacoes CSS via Tailwind
+- **class-variance-authority (cva)**: variantes de componentes
+- **clsx + tailwind-merge**: utilidades de classes
+- **D3.js**: visualizacao do mapa de atores/conexoes
+- **Zod**: validacao de schemas JSON
 - **@aws-sdk/client-s3**: client S3-compatible para Cloudflare R2
 - **Lucide React**: icones
 
 ## Testes
 
+- **Playwright**: testes e2e (cross-browser)
 - **Vitest**: testes unitarios
-- **Playwright**: testes e2e (se necessario)
 
 ## Qualidade
 

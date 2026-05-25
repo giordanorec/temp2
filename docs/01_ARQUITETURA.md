@@ -45,10 +45,13 @@ free). Atualizacao da base eh feita via commits no repo.
 | Agente | Pasta/arquivos de responsabilidade |
 |---|---|
 | `arquiteto` | `docs/`, `specs/`, `CLAUDE.md`, decisoes de arquitetura |
-| `frontend-dev` | `src/app/`, `src/components/`, `public/` |
+| `frontend-dev` | `src/app/`, `src/components/` (logica e estrutura) |
+| `asset-designer` | `src/styles/`, `public/`, design system, paleta, animacoes |
 | `pipeline-dev` | `src/lib/`, `data/`, `scripts/` de processamento |
+| `dba` | `data/`, schemas Zod, scripts de validacao/migracao |
 | `devops-installer` | config raiz (`next.config.*`, `package.json`, CI/CD) |
-| `qa-tester` | `tests/`, `e2e/` |
+| `mobile-dev` | PWA (manifest, service worker), responsividade |
+| `qa-tester` | `tests/`, `e2e/`, Playwright |
 
 Sem sobreposicao: cada pasta pertence a **um** agente. Contratos entre
 pastas sao documentados em `specs/`.
