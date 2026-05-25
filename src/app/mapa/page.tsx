@@ -6,7 +6,8 @@ import { ActorPanel } from "@/components/map/actor-panel"
 import { MapPin, Filter, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 import Link from "next/link"
-import type { Actor } from "@/types"
+import type { Actor, Connection, Sector } from "@/types"
+import { UserMenu } from "@/components/user-menu"
 import actorsData from "../../../data/actors.json"
 import connectionsData from "../../../data/connections.json"
 import sectorsData from "../../../data/sectors.json"
@@ -49,12 +50,15 @@ export default function MapaPage() {
             </div>
             <span className="font-semibold tracking-tight">RECIFE-NANTES</span>
           </Link>
-          <nav className="hidden sm:flex items-center gap-6 text-sm text-muted-foreground">
-            <span className="text-foreground font-medium">Mapa</span>
-            <Link href="/diretorio" className="hover:text-foreground transition-colors">
-              Diretório
-            </Link>
-          </nav>
+          <div className="flex items-center gap-6">
+            <nav className="hidden sm:flex items-center gap-6 text-sm text-muted-foreground">
+              <span className="text-foreground font-medium">Mapa</span>
+              <Link href="/diretorio" className="hover:text-foreground transition-colors">
+                Diretório
+              </Link>
+            </nav>
+            <UserMenu />
+          </div>
         </div>
       </header>
 
