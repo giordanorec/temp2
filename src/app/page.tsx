@@ -12,10 +12,10 @@ export default function Home() {
             <span className="font-semibold tracking-tight text-lg">RECIFE-NANTES</span>
           </div>
           <nav className="hidden sm:flex items-center gap-8 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-foreground transition-colors">Mapa</a>
-            <a href="#" className="hover:text-foreground transition-colors">Diretorio</a>
-            <a href="#" className="hover:text-foreground transition-colors">Agenda</a>
-            <a href="#" className="hover:text-foreground transition-colors">Documentos</a>
+            <a href="/mapa" className="hover:text-foreground transition-colors">Mapa</a>
+            <a href="/mapa" className="hover:text-foreground transition-colors">Diretorio</a>
+            <a href="/mapa" className="hover:text-foreground transition-colors">Agenda</a>
+            <a href="/mapa" className="hover:text-foreground transition-colors">Documentos</a>
           </nav>
         </div>
       </header>
@@ -38,14 +38,14 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="#"
+                href="/mapa"
                 className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-medium text-primary-foreground shadow-sm hover:opacity-90 transition-opacity"
               >
                 Explorar o Mapa
                 <ArrowRight className="h-4 w-4" />
               </a>
               <a
-                href="#"
+                href="/diretorio"
                 className="inline-flex items-center justify-center gap-2 rounded-lg border border-border px-6 py-3 text-sm font-medium text-foreground hover:bg-secondary transition-colors"
               >
                 Ver Diretorio

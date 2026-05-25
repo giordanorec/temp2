@@ -1,0 +1,23 @@
+[
+  { "id": "c01", "from": "prefeitura-recife", "to": "nantes-metropole", "type": "cooperacao-oficial", "label": "Acordo-quadro de cooperação (renovado out/2023, 4 anos)", "since": "2003" },
+  { "id": "c02", "from": "prefeitura-recife", "to": "mairie-nantes", "type": "cooperacao-oficial", "label": "Cidades-irmãs desde 2003" },
+  { "id": "c03", "from": "aries", "to": "samoa", "type": "cooperacao-oficial", "label": "Coordenadoras operacionais FICOL (Recife e Nantes)", "since": "2022" },
+  { "id": "c04", "from": "aries", "to": "adn-ouest", "type": "parceria", "label": "Articulação dos ecossistemas digitais" },
+  { "id": "c05", "from": "porto-digital", "to": "samoa", "type": "projeto", "label": "Projeto conjunto financiado pela AFD (2019, €610k)" },
+  { "id": "c06", "from": "cin-ufpe", "to": "nantes-universite", "type": "academico", "label": "Cooperação acadêmica em computação" },
+  { "id": "c07", "from": "unicap", "to": "ecole-design-nantes", "type": "academico", "label": "Intercâmbio Erasmus+ (desde 2018)" },
+  { "id": "c08", "from": "unicap", "to": "ecole-architecture-nantes", "type": "academico", "label": "Workshops e mobilidade estudantil Erasmus+" },
+  { "id": "c09", "from": "cesar", "to": "capacites", "type": "parceria", "label": "Inovação e transferência tecnológica" },
+  { "id": "c10", "from": "porto-digital", "to": "adn-ouest", "type": "parceria", "label": "Troca entre clusters digitais (visita Franz Jarry)" },
+  { "id": "c11", "from": "giordano-cabral", "to": "mariana-pontes", "type": "equipe", "label": "Equipe ARIES" },
+  { "id": "c12", "from": "giordano-cabral", "to": "andrea-camara", "type": "academico", "label": "Cooperação acadêmica UFPE-UNICAP" },
+  { "id": "c13", "from": "mariana-pontes", "to": "lucie-renou", "type": "coordenacao", "label": "Coordenadoras operacionais (ARIES ↔ SAMOA)" },
+  { "id": "c14", "from": "marcos-toscano", "to": "anthony-berthelot", "type": "delegacao", "label": "Relações institucionais (delegações)" },
+  { "id": "c15", "from": "nantes-metropole", "to": "samoa", "type": "institucional", "label": "Desenvolvimento territorial Île de Nantes" },
+  { "id": "c16", "from": "nantes-universite", "to": "capacites", "type": "institucional", "label": "Valorização de pesquisa" },
+  { "id": "c17", "from": "nantes-universite", "to": "ecole-architecture-nantes", "type": "academico", "label": "Rede universitária" },
+  { "id": "c18", "from": "nantes-metropole", "to": "afd", "type": "financiamento", "label": "FICOL: €2,2M (2025-2029)" },
+  { "id": "c19", "from": "aries", "to": "porto-digital", "type": "ecossistema", "label": "Ecossistema de inovação Recife" },
+  { "id": "c20", "from": "aries", "to": "cesar", "type": "ecossistema", "label": "Ecossistema de inovação Recife" },
+  { "id": "c21", "from": "andrea-camara", "to": "ecole-architecture-nantes", "type": "academico", "label": "Workshop Recife-Nantes (UNICAP-ENSA)" }
+]

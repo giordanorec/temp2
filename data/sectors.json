@@ -1,0 +1,9 @@
+[
+  { "id": "tecnologia", "name": "Tecnologia & Digital", "description": "Tecnologia da informação, desenvolvimento de software, inovação digital" },
+  { "id": "industria-criativa", "name": "Indústria Criativa", "description": "Design, arte, cultura, mídia, entretenimento" },
+  { "id": "saude", "name": "Saúde", "description": "Saúde pública, pesquisa médica, biotecnologia" },
+  { "id": "educacao", "name": "Educação & Pesquisa", "description": "Universidades, centros de pesquisa, formação" },
+  { "id": "urbanismo", "name": "Urbanismo & Território", "description": "Planejamento urbano, arquitetura, desenvolvimento territorial" },
+  { "id": "gestao-publica", "name": "Gestão Pública", "description": "Governo, políticas públicas, relações internacionais" },
+  { "id": "empreendedorismo", "name": "Empreendedorismo", "description": "Startups, incubação, aceleração, ecossistema de inovação" }
+]
